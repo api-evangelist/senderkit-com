@@ -1,4 +1,4 @@
-# senderkit-com
+# SenderKit
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-senderkit-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://senderkit.com/
+SenderKit provides a messaging layer for modern apps, offering transactional email, SMS, and push notifications through a unified API. It includes a dashboard, template management, versioning, and integrations with providers like Twilio, Amazon SES, Mailgun, and Firebase. The platform features built-in tools for SPF, DMARC, DKIM, and BIMI generation, as well as comprehensive guides and pricing options. Users can start for free without a credit card, and the service emphasizes developer-friendly SDKs for TypeScript, Python, and PHP, along with a CLI and MCP server support.
+
+**Areas:** Messaging · Email · SMS · Push · API
+
+## SenderKit on APIs.io
+
+Everything profiled for SenderKit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/senderkit-com/](https://apis.io/providers/senderkit-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [SenderKit Context API](https://apis.io/apis/senderkit-com/senderkit-com-context-api/) — Inspect the workspace and environment an API key operates in.
+- [SenderKit Inbound API](https://apis.io/apis/senderkit-com/senderkit-com-inbound-api/) — Provision addresses on your workspace's shared receiving domain and read mail sent to them. Requires an API key with the `inbound` scope.
+- [SenderKit Messages API](https://apis.io/apis/senderkit-com/senderkit-com-messages-api/) — Read message history and cancel pending sends.
+- [SenderKit Send API](https://apis.io/apis/senderkit-com/senderkit-com-send-api/) — Dispatch messages.
+- [SenderKit Templates API](https://apis.io/apis/senderkit-com/senderkit-com-templates-api/) — Read and render stored templates.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Senderkit Com Webhooks](https://apis.io/asyncapis/senderkit-com/senderkit-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SenderKit Agentic Access](https://apis.io/agentic-access/senderkit-com/senderkit-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [InboundDomain](https://apis.io/schemas/senderkit-com/senderkit-com-inbound-domain/)
+- [InboundMessage](https://apis.io/schemas/senderkit-com/senderkit-com-inbound-message/)
+- [Message](https://apis.io/schemas/senderkit-com/senderkit-com-message/)
+- [RawEmailSend](https://apis.io/schemas/senderkit-com/senderkit-com-raw-email-send/)
+- [RawWebPushSend](https://apis.io/schemas/senderkit-com/senderkit-com-raw-web-push-send/)
+- [TemplateSend](https://apis.io/schemas/senderkit-com/senderkit-com-template-send/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Senderkit Com Context](https://apis.io/jsonld/senderkit-com/senderkit-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SenderKit API Rules](https://apis.io/rules/senderkit-com/senderkit-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SenderKit Authentication](https://apis.io/security/senderkit-com/senderkit-com-authentication/)
+- [SenderKit Domain Security](https://apis.io/security/senderkit-com/senderkit-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SenderKit Plans Pricing](https://apis.io/plans/senderkit-com/senderkit-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.senderkit.com/)
+- [Documentation](https://docs.senderkit.com/)
+- [Getting started](https://docs.senderkit.com/quickstart)
+- [API reference](https://docs.senderkit.com/api-reference/introduction)
+- [Pricing](https://www.senderkit.com/pricing)
+- [Changelog](https://docs.senderkit.com/changelog)
+- [Terms of service](https://www.senderkit.com/terms)
+- [Privacy policy](https://www.senderkit.com/privacy)
+- [GitHub](https://github.com/senderkit)
+
+## API Evangelist rating
+
+**Kin Score 58.0** — strong · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 66.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.2 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 71.9** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.8** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/senderkit-com/](https://apis.io/providers/senderkit-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SenderKit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/senderkit-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
